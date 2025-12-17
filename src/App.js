@@ -1,23 +1,29 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Header from './components/Header';
+import Hero from './components/Hero';
+import Features from './components/Features';
+import Pricing from './components/Pricing';
+import Bypass from './components/Bypass';
+import Download from './components/Download';
+import Business from './components/Business';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    // "data-theme" tells DaisyUI which color palette to use for this section/app
+    <div className="App" data-theme="nexitally">
+      <Header />
+
+      <main className="min-h-screen bg-base-100 text-base-content">
+        <Hero />
+        <Features />
+        <Bypass />
+        <Pricing />
+        <Download />
+        <Business />
+        <Footer />
+      </main>
     </div>
   );
 }
