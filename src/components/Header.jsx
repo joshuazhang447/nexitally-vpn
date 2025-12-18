@@ -59,7 +59,7 @@ const Header = () => {
 
                                 {/* 3. Speed/Gaming */}
                                 <RichItem
-                                    title="Smart-Relay Acceleration"
+                                    title="Intelligent Relay Network"
                                     desc="Traffic is routed via the closest domestic node before hitting the global network, slashing ping and jitter."
                                     href="#features"
                                 />

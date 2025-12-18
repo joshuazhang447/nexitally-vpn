@@ -19,7 +19,7 @@ const Features = () => {
         },
         {
             title: "Intelligent Relay Network",
-            desc: "Latency-aware routing automatically picks the best path and the best node—then adapts as conditions change, so your sessions stay fast and stable.",
+            desc: "Latency-aware routing connects you to the closest domestic node first, then seamlessly transitions you onto our global network—adapting in real time to keep your connection fast and stable.",
             iconColor: "text-blue-400",
             bgColor: "bg-base-100",
             icon: <img src="images/relay.svg" alt="Relay" className="h-12 w-12 pl-1 pt-1" aria-hidden="true" />,

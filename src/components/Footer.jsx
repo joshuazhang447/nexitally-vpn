@@ -16,9 +16,9 @@ const Footer = () => {
                             <p>0349 Oslo, Norway</p>
                         </div>
                         <div className="flex gap-4 pt-2">
-                            <a className="btn btn-circle btn-sm btn-ghost hover:bg-white/10 text-xl"><FaTwitter /></a>
-                            <a className="btn btn-circle btn-sm btn-ghost hover:bg-white/10 text-xl"><FaGithub /></a>
-                            <a className="btn btn-circle btn-sm btn-ghost hover:bg-white/10 text-xl"><FaTelegram /></a>
+                            <a href="https://twitter.com/nexitally" target="_blank" rel="noopener noreferrer" className="btn btn-circle btn-sm btn-ghost hover:bg-white/10 text-xl"><FaTwitter /></a>
+                            <a href="https://github.com/nexitally" target="_blank" rel="noopener noreferrer" className="btn btn-circle btn-sm btn-ghost hover:bg-white/10 text-xl"><FaGithub /></a>
+                            <a href="https://t.me/nexitally" target="_blank" rel="noopener noreferrer" className="btn btn-circle btn-sm btn-ghost hover:bg-white/10 text-xl"><FaTelegram /></a>
                         </div>
                     </div>
 
