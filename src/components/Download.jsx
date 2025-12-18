@@ -43,7 +43,7 @@ const Download = () => {
             icon: <FaWindows className="w-10 h-10 text-blue-500" />,
             desc: "For Windows 10 & 11",
             buttons: [
-                { label: "Download Installer", sub: "exe", primary: true }
+                { label: "Download Installer", sub: "exe", primary: true, link: "/download/confirm", internal: true }
             ]
         },
         {
@@ -54,9 +54,9 @@ const Download = () => {
             icon: <FaLinux className="w-10 h-10 text-gray-200" />,
             desc: "Ubuntu, Debian, Arch, CentOS",
             buttons: [
-                { label: "Download AppImage", sub: "Universal", primary: true },
+                { label: "Download AppImage", sub: "Universal", primary: true, link: "/download/confirm", internal: true },
                 // Changed "View Guide" to "Packages"
-                { label: "Deb / RPM Packages", sub: "Repo", primary: false, icon: <HiCodeBracketSquare className="w-5 h-5 opacity-70" /> }
+                { label: "Deb / RPM Packages", sub: "Repo", primary: false, icon: <HiCodeBracketSquare className="w-5 h-5 opacity-70" />, link: "https://github.com/nexitally", internal: false }
             ]
         },
         {
@@ -66,8 +66,8 @@ const Download = () => {
             icon: <FaAndroid className="w-10 h-10 text-green-500" />,
             desc: "For Android 10+",
             buttons: [
-                { label: "Google Play", sub: "Store", primary: true, icon: <FaAndroid /> },
-                { label: "Direct APK", sub: "Sideload", primary: false, warning: false }
+                { label: "Google Play", sub: "Store", primary: true, icon: <FaAndroid />, link: "https://play.google.com/store/apps/details?id=com.nexitally.nexitallyclient", internal: false },
+                { label: "Direct APK", sub: "Sideload", primary: false, warning: false, link: "/download/confirm", internal: true }
             ]
         },
     ];
@@ -81,7 +81,7 @@ const Download = () => {
             icon: <FaApple className="w-10 h-10 text-white" />,
             desc: "For M1/M2/M3 & Intel",
             buttons: [
-                { label: "Download Installer", sub: "dmg", primary: true }
+                { label: "Download Installer", sub: "dmg", primary: true, link: "/download/confirm", internal: true }
             ]
         },
         {
@@ -91,8 +91,8 @@ const Download = () => {
             icon: <FaApple className="w-10 h-10 text-gray-300" />,
             desc: "For iOS 15+",
             buttons: [
-                { label: "App Store", sub: "Official", primary: true, icon: <FaAppStoreIos /> },
-                { label: "Enterprise IPA", sub: "Sideload", primary: false, warning: true }
+                { label: "App Store", sub: "Official", primary: true, icon: <FaAppStoreIos />, link: "https://apps.apple.com/app/nexitally-client", internal: false },
+                { label: "Enterprise IPA", sub: "Sideload", primary: false, warning: true, link: "https://github.com/nexitally/apple-ipa", internal: false }
             ]
         },
     ];
@@ -132,8 +132,11 @@ const Download = () => {
 
                 <div className="space-y-4 relative z-10">
                     {platform.buttons.map((btn, idx) => (
-                        <button
+                        <a
                             key={idx}
+                            href={btn.link}
+                            target={!btn.internal ? "_blank" : undefined}
+                            rel={!btn.internal ? "noopener noreferrer" : undefined}
                             className={`w-full btn h-14 rounded-xl flex items-center justify-between group/btn transition-all duration-300 ${btn.primary
                                 ? 'btn-primary shadow-lg shadow-primary/25 hover:shadow-primary/40 border-none text-white'
                                 : btn.warning
@@ -154,7 +157,7 @@ const Download = () => {
                             <span className={`text-[10px] font-mono tracking-wider opacity-80 ${btn.warning && !btn.primary ? 'bg-warning/10 px-1.5 py-0.5 rounded' : 'bg-black/20 px-1.5 py-0.5 rounded text-white/90'}`}>
                                 {btn.sub}
                             </span>
-                        </button>
+                        </a>
                     ))}
                 </div>
             </div>
