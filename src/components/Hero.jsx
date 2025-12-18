@@ -29,9 +29,9 @@ const Hero = () => {
 
                 {/* 3. CTA Buttons (Optional, but looks nice before the image) */}
                 <div className="flex gap-4 mb-20">
-                    <button className="btn btn-primary rounded-full px-8 text-lg font-semibold shadow-lg shadow-primary/30">
+                    <a href="/trial" className="btn btn-primary rounded-full px-8 text-lg font-semibold shadow-lg shadow-primary/30">
                         Start Free Trial
-                    </button>
+                    </a>
                     <button className="btn btn-ghost rounded-full px-8 text-lg border border-white/10 hover:bg-white/5">
                         View Network
                     </button>

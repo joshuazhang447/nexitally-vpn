@@ -20,7 +20,7 @@ const Header = () => {
                     </ul>
                 </div>
 
-                <a className="btn btn-ghost gap-2 px-0 hover:bg-transparent">
+                <a href="/" className="btn btn-ghost gap-2 px-0 hover:bg-transparent">
                     <img src="https://i.imgur.com/xuG3IY3.png" alt="Nexitally VPN" className="w-28 sm:w-38 rounded pb-7" />
                 </a>
             </div>
@@ -47,30 +47,35 @@ const Header = () => {
                                 <RichItem
                                     title="IEPL & IPLC Dedicated Circuits"
                                     desc="Bypass the toughest national firewalls using our private lines. Pure, unrestricted connection."
+                                    href="#features"
                                 />
 
                                 {/* 2. Stealth */}
                                 <RichItem
                                     title="Stealth Protocol Matrix"
                                     desc="Powered by V2Ray, VLESS, and Shadowsocks to mask your VPN traffic as normal browsing. 99% uptime."
+                                    href="#features"
                                 />
 
                                 {/* 3. Speed/Gaming */}
                                 <RichItem
                                     title="Smart-Relay Acceleration"
                                     desc="Traffic is routed via the closest domestic node before hitting the global network, slashing ping and jitter."
+                                    href="#features"
                                 />
 
                                 {/* 4. Coverage */}
                                 <RichItem
                                     title="84 Premium Global Nodes"
                                     desc="Instant access to 50+ countries. Unlock region-locked 4K content and international services with a single tap."
+                                    href="#features"
                                 />
 
                                 {/* 5. Privacy */}
                                 <RichItem
                                     title="Zero-Trace Policy"
                                     desc="We operate on a strict log-free policy. Your data isn't just hidden; it does not exist on our servers."
+                                    href="#features"
                                 />
 
                             </ul>
@@ -114,7 +119,7 @@ const Header = () => {
                 <a className="btn btn-ghost hidden sm:inline-flex mx-2 font-medium">Sign in</a>
 
                 {/* RAINBOW BUTTON */}
-                <a className="btn btn-rainbow rounded-full px-8 text-base font-bold shadow-lg">
+                <a href="#pricing" className="btn btn-rainbow rounded-full px-8 text-base font-bold shadow-lg">
                     Get Nexitally VPN
                 </a>
             </div>

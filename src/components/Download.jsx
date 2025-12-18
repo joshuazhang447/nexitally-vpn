@@ -135,10 +135,10 @@ const Download = () => {
                         <button
                             key={idx}
                             className={`w-full btn h-14 rounded-xl flex items-center justify-between group/btn transition-all duration-300 ${btn.primary
-                                    ? 'btn-primary shadow-lg shadow-primary/25 hover:shadow-primary/40 border-none text-white'
-                                    : btn.warning
-                                        ? 'bg-transparent border border-warning/30 text-warning hover:bg-warning hover:text-black hover:border-warning'
-                                        : 'bg-white/5 border border-white/10 text-white hover:bg-white/10 hover:border-white/20'
+                                ? 'btn-primary shadow-lg shadow-primary/25 hover:shadow-primary/40 border-none text-white'
+                                : btn.warning
+                                    ? 'bg-transparent border border-warning/30 text-warning hover:bg-warning hover:text-black hover:border-warning'
+                                    : 'bg-white/5 border border-white/10 text-white hover:bg-white/10 hover:border-white/20'
                                 }`}
                         >
                             <div className="flex items-center gap-3">
