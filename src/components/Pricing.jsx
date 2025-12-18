@@ -154,6 +154,19 @@ const Pricing = () => {
                     ))}
                 </div>
 
+                {/* Free Trial CTA */}
+                <div className="mt-16 text-center">
+                    <p className="text-base-content/60 mb-6 text-lg">
+                        Not ready to commit? Experience the full power of Nexitally with zero restrictions.
+                    </p>
+                    <a href="/trial" className="btn btn-outline btn-primary btn-lg rounded-full px-12 border-2 hover:bg-primary hover:text-white hover:border-primary transition-all duration-300">
+                        Start 7-Day Free Trial
+                    </a>
+                    <p className="mt-4 text-xs text-base-content/40">
+                        No auto-renewal. Credit/Debit card required for premium trial.
+                    </p>
+                </div>
+
             </div>
 
 
