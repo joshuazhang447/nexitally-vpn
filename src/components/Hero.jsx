@@ -32,9 +32,9 @@ const Hero = () => {
                     <a href="/trial" className="btn btn-primary rounded-full px-8 text-lg font-semibold shadow-lg shadow-primary/30">
                         Start Free Trial
                     </a>
-                    <button className="btn btn-ghost rounded-full px-8 text-lg border border-white/10 hover:bg-white/5">
+                    <a href="/network" className="btn btn-ghost rounded-full px-8 text-lg border border-white/10 hover:bg-white/5">
                         View Network
-                    </button>
+                    </a>
                 </div>
 
                 {/* 4. THE SHOWCASE IMAGE */}

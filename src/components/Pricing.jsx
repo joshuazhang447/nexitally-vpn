@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { HiCheck, HiXMark } from 'react-icons/hi2';
+import { Link } from 'react-router-dom';
 
 const Pricing = () => {
     const [isYearly, setIsYearly] = useState(false);
@@ -38,6 +39,7 @@ const Pricing = () => {
             ],
             highlight: true, // This one pops
             buttonStyle: "btn-primary shadow-lg shadow-primary/30",
+            id: "pro"
         },
         {
             name: "Max",
@@ -133,9 +135,12 @@ const Pricing = () => {
 
                             {/* CTA Button */}
                             <div className="mb-8">
-                                <button className={`btn w-full rounded-full ${plan.buttonStyle}`}>
+                                <Link
+                                    to={`/payment?plan=${plan.id}&cycle=${isYearly ? 'yearly' : 'monthly'}`}
+                                    className={`btn w-full rounded-full ${plan.buttonStyle}`}
+                                >
                                     Choose {plan.name}
-                                </button>
+                                </Link>
                             </div>
 
                             {/* Features List */}
