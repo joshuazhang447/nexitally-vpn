@@ -6,11 +6,14 @@ import Trial from './pages/Trial';
 import DownloadConfirm from './pages/DownloadConfirm';
 import Network from './pages/Network';
 import Payment from './pages/Payment';
+import Login from './pages/Login';
+import ScrollToTop from './components/ScrollToTop';
 import './App.css';
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div className="App" data-theme="nexitally">
         <Routes>
           <Route path="/" element={<Home />} />
@@ -18,6 +21,7 @@ function App() {
           <Route path="/download/confirm" element={<DownloadConfirm />} />
           <Route path="/network" element={<Network />} />
           <Route path="/payment" element={<Payment />} />
+          <Route path="/login" element={<Login />} />
         </Routes>
       </div>
     </Router>

@@ -22,6 +22,7 @@ const Pricing = () => {
             ],
             highlight: false,
             buttonStyle: "btn-ghost border-white/10 hover:bg-white/5",
+            id: "base",
         },
         {
             name: "Pro",
@@ -57,6 +58,7 @@ const Pricing = () => {
             ],
             highlight: false,
             buttonStyle: "btn-ghost border-white/10 hover:bg-white/5",
+            id: "max",
         },
     ];
 
