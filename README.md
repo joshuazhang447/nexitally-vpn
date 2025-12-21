@@ -1,12 +1,65 @@
-# Getting Started with Create React App
+# Nexitally VPN - Premium Web Experience
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+*Live Demo: [nexitally-vpn.vercel.app](https://nexitally-vpn.vercel.app)*
 
-## Available Scripts
+## 🚀 Overview
 
-In the project directory, you can run:
+Nexitally VPN is a high-performance, premium VPN service merchant page designed to offer users strict privacy, ultra-native speeds via IEPL/IPLC lines, and a gaming-optimized experience. This project serves as the frontend web application for the service, built with a focus on **desktop aesthetics**, responsiveness, and modern interaction design.
 
-### `npm start`
+The design philosophy emphasizes the "dark mode" premium feel, utilizing several concepts of gradients, glassmorphism, and subtle animations to convey, speed, stability and security.
+
+## ✨ Key Features
+
+*   **Responsive Landing Page**: A visually stunning introduction to the service with animated hero sections and feature grids.
+*   **Dynamic Pricing Engine**: 
+    *   Switch between **Base, Pro, and Max** plans.
+    *   Toggle between **Monthly** and **Yearly** billing cycles with real-time price updates.
+    *   Direct linking support (e.g., sharing a link that pre-selects the "Pro" plan).
+*   **Payment & Checkout**: 
+    *   Integrated Duration Selector (Months/Years) with auto-calculating totals.
+    *   Multi-method support UI: Credit Card, PayPal, Google Pay, and Apple Pay.
+*   **Network Status Dashboard**: Real-time visualization of server loads, types (Direct Fiber, Gaming Lanes), and ping times.
+*   **Authentication Flow**: Minimalist Login and Registration flow that enforces a "purchase-first" account creation policy.
+
+## 🛠️ Technology Stack
+
+This project is built using modern React ecosystem tools, optimized for development speed and visual flexibility.
+
+*   **Core**: [React 19](https://react.dev/)
+*   **Routing**: [React Router DOM v7](https://reactrouter.com/)
+*   **Styling**: 
+    *   [Tailwind CSS v3](https://tailwindcss.com/) (Utility-first styling)
+    *   [DaisyUI](https://daisyui.com/) (Component classes)
+*   **Icons**: [React Icons](https://react-icons.github.io/react-icons/) (Heroicons, FontAwesome)
+
+## 📦 Setup Instructions
+
+This project is bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+### Prerequisites
+*   Node.js (v16 or higher recommended)
+*   npm or yarn
+
+### Installation
+
+1.  Clone the repository:
+    ```bash
+    git clone https://github.com/joshuazhang447/nexitally-vpn.git
+    cd nexitally-vpn
+    ```
+
+2.  Install dependencies:
+    ```bash
+    npm install
+    ```
+
+### Running Locally
+
+To start the development server:
+
+```bash
+npm start
+```
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -14,57 +67,26 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+## 📸 Gallery
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 1. Stunning Landing Page
+![Landing Hero](https://i.imgur.com/IpJCUvK.png)
 
-### `npm run build`
+### 2. Mission Critical Guarantee
+![Business VPN](https://i.imgur.com/8Nq0cVx.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 3. Purchasing Page
+![Pricing Plans](https://i.imgur.com/Ilub8IK.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 4. Network Status Page
+![Network Status](https://i.imgur.com/rq1kwYG.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 5. Trial Page
+![Checkout Flow](https://i.imgur.com/wqsad2L.png)
 
-### `npm run eject`
+### 6. Login Page
+![Login Page](https://i.imgur.com/ZIrX9ia.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> **Note**: This project is optimized for Desktop and Laptop resolutions to ensure the best dashboard experience. Mobile views are supported but the primary focus is on the large-screen workstation experience.
