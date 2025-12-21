@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
@@ -116,7 +117,7 @@ const Header = () => {
 
             {/* --- RIGHT: Actions --- */}
             <div className="navbar-end w-auto lg:w-1/3">
-                <a className="btn btn-ghost hidden sm:inline-flex mx-2 font-medium">Sign in</a>
+                <Link to="/login" className="btn btn-ghost hidden sm:inline-flex mx-2 font-medium">Sign in</Link>
 
                 {/* RAINBOW BUTTON */}
                 <a href="#pricing" className="btn btn-rainbow rounded-full px-8 text-base font-bold shadow-lg">
