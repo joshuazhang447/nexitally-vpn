@@ -1,6 +1,6 @@
 # Nexitally VPN
 
-**[🚀 Live Demo](nexitally-vpn.vercel.app](https://nexitally-vpn.vercel.app)**
+**[🚀 Live Demo](https://nexitally-vpn.vercel.app)**
 
 ## Overview
 
