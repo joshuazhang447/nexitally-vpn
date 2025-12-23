@@ -1,14 +1,14 @@
-# Nexitally VPN - Premium Web Experience
+# Nexitally VPN
 
-*Live Demo: [nexitally-vpn.vercel.app](https://nexitally-vpn.vercel.app)*
+**[🚀 Live Demo](nexitally-vpn.vercel.app](https://nexitally-vpn.vercel.app)**
 
-## 🚀 Overview
+## Overview
 
 Nexitally VPN is a high-performance, premium VPN service merchant page designed to offer users strict privacy, ultra-native speeds via IEPL/IPLC lines, and a gaming-optimized experience. This project serves as the frontend web application for the service, built with a focus on **desktop aesthetics**, responsiveness, and modern interaction design.
 
 The design philosophy emphasizes the "dark mode" premium feel, utilizing several concepts of gradients, glassmorphism, and subtle animations to convey, speed, stability and security.
 
-## ✨ Key Features
+## Key Features
 
 *   **Responsive Landing Page**: A visually stunning introduction to the service with animated hero sections and feature grids.
 *   **Dynamic Pricing Engine**: 
@@ -21,7 +21,7 @@ The design philosophy emphasizes the "dark mode" premium feel, utilizing several
 *   **Network Status Dashboard**: Real-time visualization of server loads, types (Direct Fiber, Gaming Lanes), and ping times.
 *   **Authentication Flow**: Minimalist Login and Registration flow that enforces a "purchase-first" account creation policy.
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 This project is built using modern React ecosystem tools, optimized for development speed and visual flexibility.
 
@@ -32,7 +32,7 @@ This project is built using modern React ecosystem tools, optimized for developm
     *   [DaisyUI](https://daisyui.com/) (Component classes)
 *   **Icons**: [React Icons](https://react-icons.github.io/react-icons/) (Heroicons, FontAwesome)
 
-## 📦 Setup Instructions
+## Setup Guide
 
 This project is bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -67,7 +67,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-## 📸 Gallery
+## Screenshots
 
 ### 1. Stunning Landing Page
 ![Landing Hero](https://i.imgur.com/IpJCUvK.png)
@@ -90,3 +90,7 @@ You may also see any lint errors in the console.
 ---
 
 > **Note**: This project is optimized for Desktop and Laptop resolutions to ensure the best dashboard experience. Mobile views are supported but the primary focus is on the large-screen workstation experience.
+
+
+## Author
+Joshua Z
